@@ -79,7 +79,6 @@ void stack_light<T>::pop() {
   }
 }
 
-
 template <typename T>
 stack_light<T>::~stack_light() {
   if (current){
