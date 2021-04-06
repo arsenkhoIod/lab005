@@ -152,6 +152,7 @@ TEST(stack, move_assignable) {
   EXPECT_EQ(std::is_move_assignable<stack<char>>::value,true);
 }
 
+
 TEST(stack, copy_prohibited) {
   EXPECT_EQ(std::is_copy_assignable<stack<char>>::value, false);
   EXPECT_EQ(std::is_copy_constructible<stack<char>>::value,false);
